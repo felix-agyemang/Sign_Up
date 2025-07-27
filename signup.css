@@ -19,30 +19,47 @@ body {
     padding: 20px 120px;
 }
 
+/* sign up title */
 h1 {
-    font-size: 40px;
-    padding-bottom: 20px;
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
+/*  all labels */
 p {
-    font-size: 20px;
-    padding-top: 5px;
+    font-size: 18px;
+    padding-top: 12px;
 }
 
+/* input boxes */
 input {
-    padding: 12px 50px;
-    margin: 5px;
-    border-radius: 5px;
+    padding: 8px 73px 8px 10px;
+    margin-top: 5px;
+    border-radius: 8px;
     border: 1px solid rgb(99, 99, 99);
+    text-align: start;
+    color: black;
+    font-size: 18px;
 }
 
+/* placeholder texts */
+input::placeholder {
+    color: rgb(77, 75, 75);
+    font-size: 17px;
+    display: none;
+}
+
+/* sign up button */
 button {
     align-self: center;
+    
     font-size: 18px;
     color: white;
     background-color: #3764f7;
-    margin-top: 20px;
-    padding: 10px 110px;
+    margin-top: 15px;
+    padding: 10px 120px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
